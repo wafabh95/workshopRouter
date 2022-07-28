@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {Routes,Route} from 'react-router-dom'
 import Home from './pages/Home'
@@ -16,6 +15,7 @@ function App() {
     {id:2,name:'prod2',desc:"description of product number2"},
     {id:3,name:'prod3',desc:"description of product number3"}
   ])
+  setList("")
   return (
 
     <div className="App">
